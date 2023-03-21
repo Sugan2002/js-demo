@@ -40,19 +40,40 @@
 // a<4?console.log("Yes less than") : console.log("No greater than")
 
 
-let grade='B';  
+// let grade='B';  
+// switch(grade){  
+// case 'A':  
+// console.log(" A Grade")
+// break  
+// case 'B':  
+// console.log(" B Grade")
+// break  
+// case 'C':  
+// console.log(" C Grade")
+// break  
+// default:  
+// console.log(" NO Grade")
+// break  
+// }  
 
-switch(grade){  
-case 'A':  
-console.log(" A Grade")
-break  
-case 'B':  
-console.log(" B Grade")
-break  
-case 'C':  
-console.log(" C Grade")
-break  
-default:  
-console.log(" NO Grade")
-break  
-}  
+//for loop
+// for (let i=1; i<=5; i++)  
+// {  
+// console.log(i)  
+// }  
+
+//while loop
+// let i=11;  
+// while (i<=15)  
+// {  
+// console.log(i);  
+// i++;  
+// }  
+
+
+//do-while loop
+let i=21;  
+do{  
+console.log(i);  
+i++;  
+}while (i<=25);  
