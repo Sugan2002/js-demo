@@ -72,8 +72,20 @@
 
 
 //do-while loop
-let i=21;  
-do{  
-console.log(i);  
-i++;  
-}while (i<=25);  
+// let i=21;  
+// do{  
+// console.log(i);  
+// i++;  
+// }while (i<=25);  
+
+
+
+let n1 = 0, n2 = 1, c;
+const a="Fibonacci Series:"
+console.log(a);
+for (let i = 3; i <= 10; i++) {
+    console.log(c);
+    c = n1 + n2;
+    n1 = n2;
+    n2 = c;
+}
