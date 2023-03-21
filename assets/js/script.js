@@ -36,5 +36,23 @@
 // }
 
 
-let a=5
-a<4?console.log("Yes less than") : console.log("No greater than")
+// let a=5
+// a<4?console.log("Yes less than") : console.log("No greater than")
+
+
+let grade='B';  
+
+switch(grade){  
+case 'A':  
+console.log(" A Grade")
+break  
+case 'B':  
+console.log(" B Grade")
+break  
+case 'C':  
+console.log(" C Grade")
+break  
+default:  
+console.log(" NO Grade")
+break  
+}  
