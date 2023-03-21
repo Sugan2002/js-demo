@@ -21,16 +21,20 @@
 // console.log(a===b)
 
 
-let a=2019
-if(a%400==0){
-    console.log("It is a leap year")
-}
-else if(a%100==0){
-    console.log("It is not a leap year")
-}
-else if(a%4==0){
-    console.log("it is a leap year")
-}
-else{
-    console.log("It is not a leap year")
-}
+// let a=2019
+// if(a%400==0){
+//     console.log("It is a leap year")
+// }
+// else if(a%100==0){
+//     console.log("It is not a leap year")
+// }
+// else if(a%4==0){
+//     console.log("it is a leap year")
+// }
+// else{
+//     console.log("It is not a leap year")
+// }
+
+
+let a=5
+a<4?console.log("Yes less than") : console.log("No greater than")
